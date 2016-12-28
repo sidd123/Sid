@@ -105,10 +105,8 @@
 			<artifactId>quartz</artifactId>
 			<version>2.1.5</version>
 		</dependency>
-		<dependency>
-			<groupId>org.tcs.com</groupId>
-			<artifactId>LearnersBuzz</artifactId>
-		</dependency>
+
+		
 	</dependencies>
 	<build>
 		<finalName>LearnersBuzz</finalName>
