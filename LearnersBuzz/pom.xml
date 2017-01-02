@@ -213,7 +213,6 @@
 			<version>4.1.6.RELEASE</version>
 			<scope>test</scope>
 		</dependency>
-
 	</dependencies>
 	<build>
 		<plugins>
