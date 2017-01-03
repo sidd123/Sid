@@ -5,12 +5,9 @@ package com.LearnersBuzz.config;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
-import org.springframework.context.support.PropertySourcesPlaceholderConfigurer;
 import org.springframework.web.servlet.config.annotation.EnableWebMvc;
-import org.springframework.web.servlet.config.annotation.ResourceHandlerRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter;
 import org.springframework.web.servlet.view.InternalResourceViewResolver;
-import org.springframework.web.servlet.view.UrlBasedViewResolver;
 
 @Configuration
 @ComponentScan(basePackages="com.LearnersBuzz")
@@ -26,7 +23,7 @@ public class MvcConfiguration extends WebMvcConfigurerAdapter{
 		return resolver;
 	}
 	
-	@Override
+	/*@Override
 	public void addResourceHandlers(ResourceHandlerRegistry registry) {
 		registry.addResourceHandler("/resources/**").addResourceLocations("/resources/");
 	}
@@ -34,7 +31,7 @@ public class MvcConfiguration extends WebMvcConfigurerAdapter{
 	@Bean
 	public static PropertySourcesPlaceholderConfigurer propertyConfigInDev() {
 		return new PropertySourcesPlaceholderConfigurer();
-	}
+	}*/
 	
 	/*@Bean
 	BaseDAO getBaseDAO(){

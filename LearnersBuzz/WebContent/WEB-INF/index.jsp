@@ -29,7 +29,7 @@
 		</p>
 
 		<p class="forgot-password">
-			<a href="index.html">Forgot your password?</a>
+			<a href="index.jsp">Forgot your password?</a>
 		</p>
 	</form>
 </body>
