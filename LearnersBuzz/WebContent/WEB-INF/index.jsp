@@ -5,6 +5,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>Welcome To LearnersBuzz</title>
+<script src="resources/script/jquery-2.1.0.min.js"></script>
 </head>
 <body>
 	<h1>Welcome to LearnersBuzz</h1>

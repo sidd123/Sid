@@ -40,7 +40,7 @@ public class UserController extends HttpServlet {
 
 	@RequestMapping(value = "/")
 	public ModelAndView test(HttpServletResponse response) throws IOException {
-		return new ModelAndView("home");
+		return new ModelAndView("index");
 	}
 
 	@RequestMapping(value = "/login", method = RequestMethod.POST)
