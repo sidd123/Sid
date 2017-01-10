@@ -1,4 +1,4 @@
-package com.LearnersBuzz.Bean;
+package com.LearnersBuzz.Beans;
 
 import org.springframework.beans.factory.InitializingBean;
 import org.springframework.stereotype.Component;

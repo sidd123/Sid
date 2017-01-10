@@ -7,6 +7,9 @@ import org.springframework.data.mongodb.core.MongoTemplate;
 
 public class BaseDAO {
 	private static final Logger logger = LoggerFactory.getLogger(BaseDAO.class);
+	
 	@Autowired
 	private MongoTemplate mongoTemplate;
+	
+	
 }
