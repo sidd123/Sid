@@ -5,4 +5,4 @@
  * @author 549198
  *
  */
-package com.LearnersBuzz.Services;
+package com.LearnersBuzz.Bean;

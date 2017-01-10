@@ -1,4 +1,4 @@
-package com.LearnersBuzz.Beans;
+package com.LearnersBuzz.Bean;
 
 import java.io.Serializable;
 

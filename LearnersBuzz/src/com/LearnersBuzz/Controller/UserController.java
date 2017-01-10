@@ -1,7 +1,5 @@
 package com.LearnersBuzz.Controller;
 
-import com.LearnersBuzz.Services.UserService;
-
 import java.io.IOException;
 
 import javax.servlet.ServletException;
@@ -11,7 +9,6 @@ import javax.servlet.http.HttpServletResponse;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.ModelAndView;
@@ -28,8 +25,7 @@ import org.springframework.web.servlet.ModelAndView;
 public class UserController extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 
-	@Autowired
-	UserService userService;
+	
 	private static final Logger logger = LoggerFactory
 			.getLogger(UserController.class);
 

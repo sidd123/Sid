@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.LearnersBuzz.Services;
+package com.LearnersBuzz.Service;
 
 import java.util.List;
 
@@ -11,7 +11,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.mongodb.core.MongoTemplate;
 import org.springframework.data.mongodb.core.query.Query;
 
-import com.LearnersBuzz.Beans.Registered_Users;
+import com.LearnersBuzz.Bean.Registered_Users;
 
 /**
  * @author 549198
